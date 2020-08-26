@@ -1,1 +1,1 @@
-# Education
+More scientific education content to come!

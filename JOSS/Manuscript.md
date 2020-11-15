@@ -1,6 +1,5 @@
-
 ---  
-title: '----'  
+title: 'A Pre-trained Model That Enables Computational Developmental Biology Research and Education'  
 tags:  
   - Python  
 
@@ -23,13 +22,13 @@ bibliography: devolearn-joss.bib
 ---  
 
 # Summary
-Extracting metadata from microscopic videos/images have been one of the key steps in the process of finding emerging patterns from various biological processes. There have been many attempts to develop segmentation tools for cell shape and location [1-3]. In particular, cell tracking methodologies provide quantitative summaries of cell centroid positions within an embryo [4].  Devolearn aims to speed up this process of collecting metadata by using robust deep learning models that can be used through a high level API. Devolearn’s primary focus is the _Caenorhabditis elegans_ embryo and specifically on the early embryogenesis process. Here are some of the capabilities of the DevoLearn model:
+Extracting metadata from microscopic videos/images have been one of the key steps in the process of finding emerging patterns from various biological processes. There have been many attempts to develop segmentation tools for cell shape and location [1-3]. In particular, cell tracking methodologies provide quantitative summaries of cell centroid positions within an embryo [4]. Our pre-trained model (Devolearn) aims to speed up this process of collecting metadata by using robust deep learning models that can be used through a high level API. Devolearn’s primary focus is the _Caenorhabditis elegans_ embryo and specifically on the early embryogenesis process. Here are some of the capabilities of the DevoLearn model:
 
-* segments images/videos of the _C. elegans_ embryo and extract the centroids of the cells and save them into a CSV file.  
+* **segments images/videos of the _C. elegans_ embryo** and extract the centroids of the cells and save them into a CSV file.  
 
-* estimating the population of cells of various lineages within the _C. elegans_ embryo and upon user request generates plots of the data.  
+* **estimating the population of cells of various lineages within the _C. elegans_ embryo** and upon user request generates plots of the data.  
 
-* generating images of the _C. elegans_ embryo with a Generative Adversarial Network (GAN). The current version of DevoLearn (0.2.0) also supports bulk generation of images.  
+* **generating images of the _C. elegans_ embryo with a Generative Adversarial Network (GAN)** and provides support for extracting so-called _meta-features_. The current version of DevoLearn (0.2.0) also supports bulk generation of images.  
 
 DevoLearn has been made available as an open-source module, available on PyPi ([link](https://pypi.org/project/devolearn/)). All the deep-learning models used in devolearn are built and trained on PyTorch, the PyPI package (https://pypi.org/project/devolearn/) itself does not contain the model files, but the models are downloaded automatically once the user imports the model class from the package. 
 
@@ -41,12 +40,16 @@ There are a number of pre-trained models which are already in use in different c
 <P>
   <IMG SRC="https://github.com/DevoLearn/Education/blob/master/JOSS/DL-umbrella.png">
 </P>
+  
+((meta-features that identify movement patterns and multicellular physics in the embryogenetic environment))
 
 As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [5] and Pandas [6]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
 
 <P>
   <IMG SRC="----">
 </P>
+
+The DevoLearn pre-trained model is also a part of the [DevoLearn Github organization](https://github.com/devolearn), which serves as a comprehensive open-source research and educational resource. DevoLearn not only features the DevoLearn pre-trained model, but also provides users with Data Science tutorials, web-based applications that offer other Deep Learning and Michane Learning tools for cell segmentation, and 
 
 # Acknowledgements
 We would like to thank the OpenWorm Foundation, the International Neuroinformatics Coordinating Facility (INCF), and Google Summer of Code for their financial and institutional support. Gratitude also goes to the DevoWorm group for their expertise and feedback.

@@ -38,7 +38,7 @@ Devolearn (0.2.0) is a python package that aims to automate the process of colle
 There are a number of pre-trained models which are already in use in different contexts, but options are fewer within the unique feature space of developmental biology, in particular. Devolearn aims not just to fix this issue, but also work on other aspects around developmental biology with species-specific models. 
 
 <P>
-  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/JOSS/DL-umbrella.png">
+  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Umbrella.png">
 </P>
   
 ((meta-features that identify movement patterns and multicellular physics in the embryogenetic environment))
@@ -46,7 +46,7 @@ There are a number of pre-trained models which are already in use in different c
 As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [5] and Pandas [6]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
 
 <P>
-  <IMG SRC="----">
+  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Schematic.png">
 </P>
 
 The DevoLearn pre-trained model is also a part of the [DevoLearn Github organization](https://github.com/devolearn), which serves as a comprehensive open-source research and educational resource. DevoLearn not only features the DevoLearn pre-trained model, but also provides users with Data Science tutorials, web-based applications that offer other Deep Learning and Michane Learning tools for cell segmentation, and 

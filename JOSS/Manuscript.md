@@ -14,6 +14,7 @@ authors:
   - name: Bradly Alicea  
     orcid: 0000-0003-3869-3175  
     affiliation: 1  
+    
 affiliations:  
  - name: OpenWorm Foundation  
    index: --  
@@ -42,6 +43,10 @@ There are a number of pre-trained models which are already in use in different c
 </P>
 
 As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [5] and Pandas [6]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
+
+<P>
+  <IMG SRC="----">
+</P>
 
 # Acknowledgements
 We would like to thank the OpenWorm Foundation, the International Neuroinformatics Coordinating Facility (INCF), and Google Summer of Code for their financial and institutional support. Gratitude also goes to the DevoWorm group for their expertise and feedback.

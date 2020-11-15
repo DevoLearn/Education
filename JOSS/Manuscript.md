@@ -1,25 +1,25 @@
 
----
-title: '----'
-tags:
-  - Python
+---  
+title: '----'  
+tags:  
+  - Python  
 
-authors:
-  - name: Mayukh Deb
-    orcid: ---
-    affiliation: 1
-  - name: Ujjwal Singh
-    orcid: ---
-    affiliation: 1
-  - name: Bradly Alicea
-    orcid: 0000-0003-3869-3175
-    affiliation: 1
-affiliations:
- - name: OpenWorm Foundation
-   index: --
-date: -------
-bibliography: devolearn-joss.bib
----
+authors:  
+  - name: Mayukh Deb  
+    orcid: ---  
+    affiliation: 1  
+  - name: Ujjwal Singh  
+    orcid: ---  
+    affiliation: 1  
+  - name: Bradly Alicea  
+    orcid: 0000-0003-3869-3175  
+    affiliation: 1  
+affiliations:  
+ - name: OpenWorm Foundation  
+   index: --  
+date: -------  
+bibliography: devolearn-joss.bib  
+---  
 
 # Summary
 Extracting metadata from microscopic videos/images have been one of the key steps in the process of finding emerging patterns from various biological processes. There have been many attempts to develop segmentation tools for cell shape and location [1-3]. In particular, cell tracking methodologies provide quantitative summaries of cell centroid positions within an embryo [4].  Devolearn aims to speed up this process of collecting metadata by using robust deep learning models that can be used through a high level API. Devolearn’s primary focus is the _Caenorhabditis elegans_ embryo and specifically on the early embryogenesis process. Here are some of the capabilities of the DevoLearn model:
@@ -38,7 +38,7 @@ Devolearn (0.2.0) is a python package that aims to automate the process of colle
 There are a number of pre-trained models which are already in use in different contexts, but options are fewer within the unique feature space of developmental biology, in particular. Devolearn aims not just to fix this issue, but also work on other aspects around developmental biology with species-specific models. 
 
 <P>
-  <IMG SRC="">
+  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/JOSS/DL-umbrella.png">
 </P>
 
 As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [5] and Pandas [6]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 

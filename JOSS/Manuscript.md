@@ -1,4 +1,3 @@
-
 ---  
 title: 'A Pre-trained Model That Enables Computational Developmental Biology Research and Education'  
 tags:  

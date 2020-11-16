@@ -1,3 +1,4 @@
+
 ---  
 title: 'A Pre-trained Model That Enables Computational Developmental Biology Research and Education'  
 tags:  
@@ -22,7 +23,7 @@ bibliography: devolearn-joss.bib
 ---  
 
 # Summary
-Extracting metadata from microscopic videos/images have been one of the key steps in the process of finding emerging patterns from various biological processes. There have been many attempts to develop segmentation tools for cell shape and location [1-3]. In particular, cell tracking methodologies provide quantitative summaries of cell centroid positions within an embryo [4]. Our pre-trained model (Devolearn) aims to speed up this process of collecting metadata by using robust deep learning models that can be used through a high level API. Devolearn’s primary focus is the _Caenorhabditis elegans_ embryo and specifically on the early embryogenesis process. Here are some of the capabilities of the DevoLearn model:
+Extracting metadata from microscopic videos/images have been one of the key steps in the process of finding emerging patterns from various biological processes. There have been many attempts to develop segmentation tools for cell shape and location [1-3]. In particular, cell tracking methodologies provide quantitative summaries of cell centroid positions within an embryo [4]. Our pre-trained model (Devolearn) aims to speed up this process of collecting metadata by using robust deep learning models that can be used through a high level API. Devolearn’s primary focus is the _Caenorhabditis elegans_ embryo and specifically on the early embryogenesis process. This builds upon desired functionality that was first proposed by the DevoWorm group in [5]. Here are some of the capabilities of the DevoLearn model:
 
 * **segments images/videos of the _C. elegans_ embryo** and extract the centroids of the cells and save them into a CSV file.  
 
@@ -41,15 +42,15 @@ There are a number of pre-trained models which are already in use in different c
   <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Umbrella.png">
 </P>
   
-((meta-features that identify movement patterns and multicellular physics in the embryogenetic environment))
+DevoLearn is also capable of extracting _meta-features_ that identify movement patterns and multicellular physics in the embryogenetic environment. Exampoles of this include embryo networks [6] and motion features. The former capability involves extracting potential structural and functional networks using distance metrics and other information extracted from microscopy images. Motion features can also be extracted and can be used for a variety of purposes, including as a means to build generative adversarial network (GAN) models.
 
-As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [5] and Pandas [6]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
+As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [7] and Pandas [8]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
 
 <P>
   <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Schematic.png">
 </P>
 
-The DevoLearn pre-trained model is also a part of the [DevoLearn Github organization](https://github.com/devolearn), which serves as a comprehensive open-source research and educational resource. DevoLearn not only features the DevoLearn pre-trained model, but also provides users with Data Science tutorials, web-based applications that offer other Deep Learning and Michane Learning tools for cell segmentation, and 
+The DevoLearn pre-trained model is also a part of the [DevoLearn Github organization](https://github.com/devolearn), which serves as a comprehensive open-source research and educational resource. DevoLearn not only features the DevoLearn pre-trained model, but also provides users with Data Science tutorials, web-based applications that offer other Deep Learning and Machine Learning tools for cell segmentation, and other educational resources.  
 
 # Acknowledgements
 We would like to thank the OpenWorm Foundation, the International Neuroinformatics Coordinating Facility (INCF), and Google Summer of Code for their financial and institutional support. Gratitude also goes to the DevoWorm group for their expertise and feedback.
@@ -63,6 +64,10 @@ We would like to thank the OpenWorm Foundation, the International Neuroinformati
 
 [4] Ulman, V. et.al (2017). An objective comparison of cell-tracking algorithms. _Nature Methods_, 14(12), 1141–1152.
 
-[5] Harris, C.R. (2020). Array programming with NumPy. _Nature_, 585, 357-362.
+[5] Alicea, B. et.al (2019). Pre-trained Machine Learning Models for Developmental Biology. _The Node blog_, October 29. https://thenode.biologists.com/pre-trained-machine-learning-models-for-developmental-biology/uncategorized/
 
-[6] Virtanen}, P. et.al (2020). SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. _Nature Methods_, 17, 261-272.
+[6] Alicea, B. and Gordon R. (2018). Cell Differentiation Processes as Spatial Networks: identifying four-dimensional structure in embryogenesis. _BioSystems_, 173, 235-246. 
+
+[7] Harris, C.R. (2020). Array programming with NumPy. _Nature_, 585, 357-362.
+
+[8] Virtanen}, P. et.al (2020). SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. _Nature Methods_, 17, 261-272.

@@ -24,7 +24,7 @@ affiliations:
    index: -- 
   - name: Orthogonal Research and Education Lab
    index: -- 
- date: -------  
+ date: November 2020 
 bibliography: devolearn-joss.bib  
 ---  
 
@@ -40,23 +40,24 @@ Extracting metadata from microscopic videos/images have been one of the key step
 DevoLearn has been made available as an open-source module, available on PyPi ([link](https://pypi.org/project/devolearn/)). All the deep-learning models used in devolearn are built and trained on PyTorch, the PyPI package (https://pypi.org/project/devolearn/) itself does not contain the model files, but the models are downloaded automatically once the user imports the model class from the package. 
 
 ## Statement of Need
-Devolearn (0.2.0) is a python package that aims to automate the process of collecting metadata from videos/images of the _C. elegans_ embryo with the help of deep learning models. This would enable researchers/enthusiasts to analyse features from videos/images at scale without having to annotate their data manually. 
+Devolearn (0.2.0) is a python package that aims to automate the process of collecting metadata from videos/images of the _C. elegans_ embryo with the help of deep learning models (Figure 1). This would enable researchers/enthusiasts to analyse features from videos/images at scale without having to annotate their data manually. 
 
 There are a number of pre-trained models which are already in use in different contexts, but options are fewer within the unique feature space of developmental biology, in particular. Devolearn aims not just to fix this issue, but also work on other aspects around developmental biology with species-specific models. 
 
 <P>
-  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Umbrella.png">
+  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Schematic.png">
 </P>
-Schematic of the DevoLearn Umbrella, which includes the DevoLearn standalone program and the DevoLearn framework.  
+**Figure 1.** Schematic demonstrating the runtime procedure of the DevoLearn standalone program.  
   
 DevoLearn is also capable of extracting _meta-features_ that identify movement patterns and multicellular physics in the embryogenetic environment. Exampoles of this include embryo networks [6] and motion features. The former capability involves extracting potential structural and functional networks using distance metrics and other information extracted from microscopy images. Motion features can also be extracted and can be used for a variety of purposes, including as a means to build generative adversarial network (GAN) models [7].
 
-As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [8] and Pandas [9]. As the Devolearn framework grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
+Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [8] and Pandas [9]. As the Devolearn framework (Figure 2) grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science.   
 
 <P>
-  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Schematic.png">
+  <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Umbrella.png">
 </P>
-Schematic demonstrating the runtime procedure of the DevoLearn standalone program.
+**Figure 2.** Schematic of the DevoLearn Umbrella, which includes the DevoLearn standalone program and the DevoLearn framework.  
+  
 
 The DevoLearn pre-trained model is also a part of the [DevoLearn Github organization](https://github.com/devolearn), which serves as a comprehensive open-source research and educational resource. DevoLearn not only features the DevoLearn pre-trained model, but also provides users with Data Science tutorials, web-based applications that offer other Deep Learning and Machine Learning tools for cell segmentation, and other educational resources.  
 

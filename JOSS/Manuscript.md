@@ -6,18 +6,24 @@ tags:
 authors:  
   - name: Mayukh Deb  
     orcid: ---  
-    affiliation: 1  
+    affiliation: 1,2 
   - name: Ujjwal Singh  
     orcid: ---  
-    affiliation: 1  
+    affiliation: 1 ,3
   - name: Bradly Alicea  
     orcid: 0000-0003-3869-3175  
-    affiliation: 1  
+    affiliation: 1 ,4
     
 affiliations:  
  - name: OpenWorm Foundation  
    index: --  
-date: -------  
+ - name: Amrita Vishwa Vidyapeetham University 
+   index: -- 
+ - name: IIT Delhi  
+   index: -- 
+  - name: Orthogonal Research and Education Lab
+   index: -- 
+ date: -------  
 bibliography: devolearn-joss.bib  
 ---  
 
@@ -33,7 +39,7 @@ Extracting metadata from microscopic videos/images have been one of the key step
 DevoLearn has been made available as an open-source module, available on PyPi ([link](https://pypi.org/project/devolearn/)). All the deep-learning models used in devolearn are built and trained on PyTorch, the PyPI package (https://pypi.org/project/devolearn/) itself does not contain the model files, but the models are downloaded automatically once the user imports the model class from the package. 
 
 ## Statement of Need
-Devolearn (0.2.0) is a python package that aims to automate the process of collecting metadata from videos/images of the C. elegans embryo with the help of deep learning models. This would enable researchers/enthusiasts to analyse features from videos/images at scale without having to annotate their data manually. 
+Devolearn (0.2.0) is a python package that aims to automate the process of collecting metadata from videos/images of the _C. elegans_ embryo with the help of deep learning models. This would enable researchers/enthusiasts to analyse features from videos/images at scale without having to annotate their data manually. 
 
 There are a number of pre-trained models which are already in use in different contexts, but options are fewer within the unique feature space of developmental biology, in particular. Devolearn aims not just to fix this issue, but also work on other aspects around developmental biology with species-specific models. 
 
@@ -41,9 +47,9 @@ There are a number of pre-trained models which are already in use in different c
   <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Umbrella.png">
 </P>
   
-DevoLearn is also capable of extracting _meta-features_ that identify movement patterns and multicellular physics in the embryogenetic environment. Exampoles of this include embryo networks [6] and motion features. The former capability involves extracting potential structural and functional networks using distance metrics and other information extracted from microscopy images. Motion features can also be extracted and can be used for a variety of purposes, including as a means to build generative adversarial network (GAN) models.
+DevoLearn is also capable of extracting _meta-features_ that identify movement patterns and multicellular physics in the embryogenetic environment. Exampoles of this include embryo networks [6] and motion features. The former capability involves extracting potential structural and functional networks using distance metrics and other information extracted from microscopy images. Motion features can also be extracted and can be used for a variety of purposes, including as a means to build generative adversarial network (GAN) models [7].
 
-As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [7] and Pandas [8]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
+As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [8] and Pandas [9]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
 
 <P>
   <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Schematic.png">
@@ -67,6 +73,8 @@ We would like to thank the OpenWorm Foundation, the International Neuroinformati
 
 [6] Alicea, B. and Gordon R. (2018). Cell Differentiation Processes as Spatial Networks: identifying four-dimensional structure in embryogenesis. _BioSystems_, 173, 235-246. 
 
-[7] Harris, C.R. (2020). Array programming with NumPy. _Nature_, 585, 357-362.
+[7] Goodfellow, I.J., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., and Bengio, Y. (2014). Generative Adversarial Networks. _arXiv_, 1406.2661.
 
-[8] Virtanen}, P. et.al (2020). SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. _Nature Methods_, 17, 261-272.
+[8] Harris, C.R. (2020). Array programming with NumPy. _Nature_, 585, 357-362.
+
+[9] Virtanen, P. et.al (2020). SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. _Nature Methods_, 17, 261-272.

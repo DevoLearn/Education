@@ -1,3 +1,4 @@
+
 ---  
 title: 'A Pre-trained Model That Enables Computational Developmental Biology Research and Education'  
 tags:  
@@ -46,14 +47,16 @@ There are a number of pre-trained models which are already in use in different c
 <P>
   <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Umbrella.png">
 </P>
+Schematic of the DevoLearn Umbrella, which includes the DevoLearn standalone program and the DevoLearn framework.  
   
 DevoLearn is also capable of extracting _meta-features_ that identify movement patterns and multicellular physics in the embryogenetic environment. Exampoles of this include embryo networks [6] and motion features. The former capability involves extracting potential structural and functional networks using distance metrics and other information extracted from microscopy images. Motion features can also be extracted and can be used for a variety of purposes, including as a means to build generative adversarial network (GAN) models [7].
 
-As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [8] and Pandas [9]. As the Devolearn ecosystem grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
+As a software ecosystem, Devolearn has been built to be very data science friendly and to be highly compatible with libraries like NumPy [8] and Pandas [9]. As the Devolearn framework grows bigger with more tools and deep learning models, the combination of beginner friendliness and support for data science functionality will enable exciting scientific explorations both in developmental biology and data science. 
 
 <P>
   <IMG SRC="https://github.com/DevoLearn/Education/blob/master/DevoLearn%20Schematic.png">
 </P>
+Schematic demonstrating the runtime procedure of the DevoLearn standalone program.
 
 The DevoLearn pre-trained model is also a part of the [DevoLearn Github organization](https://github.com/devolearn), which serves as a comprehensive open-source research and educational resource. DevoLearn not only features the DevoLearn pre-trained model, but also provides users with Data Science tutorials, web-based applications that offer other Deep Learning and Machine Learning tools for cell segmentation, and other educational resources.  
 

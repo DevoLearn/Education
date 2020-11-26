@@ -19,7 +19,7 @@ affiliations:
    index: --  
  - name: Amrita Vishwa Vidyapeetham University 
    index: -- 
- - name: IIT Delhi  
+ - name: IIIT Delhi  
    index: -- 
   - name: Orthogonal Research and Education Lab
    index: -- 
